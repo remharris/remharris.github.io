@@ -1,0 +1,18 @@
+html {
+  background-color: #f4b642;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+aside {
+  width: 200px;
+  margin-left: 20px;
+  float: right;
+}
+
+aside > img {
+  width: 100%;
+}
