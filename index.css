@@ -16,3 +16,7 @@ aside {
 aside > img {
   width: 100%;
 }
+
+p {
+  font-family: sansista
+}
