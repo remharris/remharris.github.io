@@ -3,19 +3,19 @@
 }
 
 .primary.dark{
-  background: #616161;
+  background: #AFB42B;
 }
 .primary {
-  background: #9E9E9E;
+  background: #CDDC39;
   color: #212121;
 }
 .primary.light{
-  background: #F5F5F5;
+  background: ##F0F4C3;
 }
 
 
 .accent{
-  background-color: #CDDC39;
+  background-color: ##607D8B;
 }
 
 header {
