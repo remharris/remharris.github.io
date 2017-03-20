@@ -2,6 +2,25 @@
   margin-top: 1rem;
 }
 
+#container h1{
+  font-family:'Homemade Apple', cursive;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#nav{
+  background-color: #CDDC39;
+  padding: 10px;
+  margin: 10px;
+  display: block;
+}
+
+li{
+  display: inline;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 2rem;
+  margin-left: 180px;
+}
 .primary.dark{
   background: #AFB42B;
 }
@@ -10,26 +29,35 @@
   color: #212121;
 }
 .primary.light{
-  background: ##F0F4C3;
+  background: #F0F4C3;
 }
 
 
 .accent{
-  background-color: ##607D8B;
+  background-color: #607D8B;
 }
 
 header {
   margin-bottom: 1rem;
 }
 
+header > h1 {
+  margin-bottom: 0;
+}
+
 section {
   border-top: 1px solid;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
+  margin: 1rem 0;
+  padding-top: 1rem;
+  margin-left: 1rem;
 }
 
 footer{
   border-top: 1px solid #BDBDBD;
-  margin-top: 3rem;
-  padding-top: 3rem;
+  margin: 1rem 0;
+}
+
+#headshot {
+  width: 100%;
+  box-shadow: 3px 3px 5px -2px black;
 }

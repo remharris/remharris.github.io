@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  border:0;
+  padding:0;
+  margin: 0;
+}
+#hands, #stats, #logo, .dealer, .player{
+  position: absolute;
+}
+
+
+#hands{
+  background-color: #2AB26E;
+  font-family: 'Merienda', cursive;
+  height: 60vh;
+  width: 75vw;
+  left: 25vw;
+}
+
+.dealer{
+  width: 37.5vw;
+  height: 60vh;
+  text-align: center;
+
+}
+.player{
+  width: 37.5vw;
+  height: 60vh;
+  /*left: 37.5vw;*/
+  right: 0;
+  text-align: center;
+
+}
+
+h2{
+  margin-top: 1em;
+}
+
+#stats{
+  background-color: #B22919;
+  height: 60vh;
+  width: 25vw;
+}
+
+#stats h2{
+  text-align: center;
+  font-family: 'Merienda', cursive;
+}
+
+#stats ul{
+  font-family: 'Passion One', cursive;
+  list-style: none;
+  margin: 1em;
+}
+
+#stats li{
+  font-size: 1.5rem;
+}
+
+#stats li + li{
+  margin-top: 1rem;
+}
+
+#logo{
+  background-image: url("dice.jpg");
+  background-color: #542626;
+  background-position: 50% 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  filter: grayscale(50%);
+  height: 40vh;
+  top: 60vh;
+  width: 100vw;
+}
+
+#logo h1{
+  color: black;
+  filter: drop-shadow(3px 3px 2px white) drop-shadow(-3px -3px 2px white);
+  font-family: 'Yellowtail', cursive;
+  font-size: 10vh;
+  line-height: 40vh;
+  text-align: center;
+
+}
