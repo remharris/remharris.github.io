@@ -15,7 +15,7 @@
   display: block;
 }
 
-li{
+li > li{
   display: inline;
   font-family: 'Covered By Your Grace', cursive;
   font-size: 2rem;
@@ -43,6 +43,10 @@ header {
 
 header > h1 {
   margin-bottom: 0;
+}
+
+h2{
+  font-family:'Covered By Your Grace', cursive;
 }
 
 section {
